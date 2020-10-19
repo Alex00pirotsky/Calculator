@@ -5,8 +5,7 @@
 #ifndef CALCULATOR_OPERATIONS_H
 #define CALCULATOR_OPERATIONS_H
 
-#include "//home/zeus/CLionProjects/day__12/file_work.h"
-
+#include <unistd.h>
 typedef struct s_op
 {
     char *val;

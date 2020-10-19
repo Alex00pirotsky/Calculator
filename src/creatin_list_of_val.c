@@ -2,7 +2,7 @@
 // Created by zeus on 24.06.2020.
 //
 
-#include "creatin_list_of_val.h"
+#include "../headers/creatin_list_of_val.h"
 #include <stdio.h>
 
 int     ft_str_len(char const *str)

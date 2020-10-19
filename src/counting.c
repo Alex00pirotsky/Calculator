@@ -2,7 +2,7 @@
 // Created by zeus on 24.06.2020.
 //
 
-#include "counting.h"
+#include "../headers/counting.h"
 #include <stdio.h>
 
 

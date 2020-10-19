@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "operations.h"
-#include "ft_list.h"
-#include "creatin_list_of_val.h"
-#include "counting.h"
+#include "../headers/operations.h"
+#include "../headers/ft_list.h"
+#include "../headers/creatin_list_of_val.h"
+#include "../headers/counting.h"
 
 
 
@@ -26,8 +26,6 @@ char    *conclusion(char *arg)
 
     beg = create_kitty(arg);
 
-    //printf("\n");
-
     while (beg->next)
     {
         printf("%s = ", (char *)beg->data);
@@ -46,10 +44,13 @@ char    *conclusion(char *arg)
 
 int main(int argc, char **argv)
 {
-    //"2 + 1 * 2 * 3 + 1 + 1"
-    //;
-    char *str = "((3 * 3 + (123 + 1)) + 4 + 7 * 2) + (123 + 1) * 3 + (2 + 2)";
-    printf("%s\n\n", argv[1]);
+
+    printf("%s\n", argv[1]);
+    if(argc != 1)
+    {
+    	printf("YOU should write only one arg");
+	return 0;
+    }
 
 
     char *j = conclusion(argv[1]);

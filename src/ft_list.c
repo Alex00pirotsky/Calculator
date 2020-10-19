@@ -2,7 +2,7 @@
 // Created by zeus on 22.06.2020.
 //
 
-#include "ft_list.h"
+#include "../headers/ft_list.h"
 #include <stdio.h> ///todo
 
 
